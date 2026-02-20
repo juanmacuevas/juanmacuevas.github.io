@@ -1,30 +1,259 @@
+<!doctype html>
+<html lang="en">
 
-<!DOCTYPE html>
-<html>
 <head>
-<title>JuanMa</title>
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="JuanMa Cuevas - Senior Android Engineer with fintech-grade security experience, shipping AI-enabled product features with production reliability." />
+  <title>JuanMa Cuevas | Senior Android Engineer & Applied AI Builder</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Roboto+Mono:wght@400;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 
-<body style="margin-left:5%">
+<body>
+  <div class="page-bg" aria-hidden="true"></div>
 
-<img alt="photo of JuanMa" src="juanma.webp" />
-<pre style="font-size:x-large">
-name: JuanMa Cuevas
-born: mid 80's
-from: Santander, ES
-home: Amsterdam, NL
-code: [kotlin, python, rust]
-make: 3D printing
-play: [guitar, piano]
-work:
-    at: ABN Amro B.V.
-    as: Android developer
-link:
-   <a href="https://github.com/juanmacuevas">github.com/juanmacuevas</a>
-   <a href="https://twitter.com/juanmacuevas">twitter.com/juanmacuevas</a>
-   <a href="https://www.linkedin.com/in/juanmacuevas">linkedin.com/in/juanmacuevas</a>
-</pre>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#about">JM.Cuevas_</a>
 
+      <div class="header-tools">
+        <nav id="main-nav" class="main-nav">
+          <a href="#about" data-i18n="nav.about">About</a>
+          <a href="#experience" data-i18n="nav.experience">Experience</a>
+          <a href="#impact" data-i18n="nav.impact">Impact Projects</a>
+          <a href="#maker" data-i18n="nav.maker">Maker Lab</a>
+        </nav>
+
+        <div class="lang-switch" role="group" aria-label="Language selector">
+          <button class="lang-btn" type="button" data-lang="en" aria-pressed="false">EN</button>
+          <button class="lang-btn" type="button" data-lang="es" aria-pressed="false">ES</button>
+        </div>
+
+        <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Open menu">
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <section id="about" class="section hero">
+      <h1 class="reveal" data-i18n-html="hero.title">
+        Senior Android Engineer.
+        <br />
+        <span>Applied AI Builder</span>.
+        <br />
+        Production-Grade Systems.
+      </h1>
+
+      <p class="lead reveal" data-i18n="hero.lead">
+        I design and deliver robust Android systems for real users in production - from securing banking
+        applications to shipping AI-enabled product features. Over a decade of mobile depth, backend
+        pragmatism, and applied AI engineering, focused on solving high-impact product problems.
+      </p>
+
+      <div class="hero-actions reveal">
+        <a href="https://github.com/juanmacuevas" target="_blank" rel="noopener noreferrer" class="btn btn-primary"
+          data-i18n="hero.cta.github">GitHub</a>
+        <a href="mailto:hello@juanma.nl" class="btn btn-secondary" data-i18n="hero.cta.contact">Get in Touch</a>
+      </div>
+    </section>
+
+    <section id="philosophy" class="section split">
+      <article class="panel reveal">
+        <h2 data-i18n-html="ph.secure.title"><span>#</span> Secure & Robust Engineering</h2>
+        <p data-i18n-html="ph.secure.body">
+          With 15+ years in Android development, I have focused intensely on building reliable, secure systems
+          at production scale. At <strong>ABN AMRO</strong>, I contribute to the Security Guild, architecting
+          solutions that protect millions of users and ensure trust in critical financial applications.
+        </p>
+        <ul>
+          <li data-i18n="ph.secure.li1">Deep Android architecture expertise</li>
+          <li data-i18n="ph.secure.li2">Security-first development (banking-grade)</li>
+          <li data-i18n="ph.secure.li3">Secure biometric & payment solutions</li>
+        </ul>
+      </article>
+
+      <article class="panel panel-accent reveal">
+        <h2 data-i18n-html="ph.ai.title"><span class="orange">#</span> Applied AI & Problem Solver</h2>
+        <p data-i18n="ph.ai.body">
+          I ship AI-enabled capabilities that improve product outcomes in production, not only in demos.
+          Beyond corporate projects, I tackle real-world problems with practical, rapid technological
+          solutions - from crisis-response tools to widely-used community platforms.
+        </p>
+        <ul>
+          <li data-i18n="ph.ai.li1">AI-enabled product features (LLM, RAG, automation)</li>
+          <li data-i18n="ph.ai.li2">Full-stack rapid prototyping & deployment</li>
+          <li data-i18n="ph.ai.li3">Python for data pipelines, scripting & AI tooling</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="experience" class="section">
+      <h2 class="section-title reveal" data-i18n="exp.title">Professional Journey.</h2>
+      <p class="section-intro reveal" data-i18n="exp.intro">
+        Exploring the evolution of mobile and software engineering through key roles.
+      </p>
+
+      <div class="timeline">
+        <article class="timeline-item reveal">
+          <p class="time" data-i18n="exp.1.time">2019 - Present</p>
+          <h3 data-i18n="exp.1.role">Senior Android Developer (Security Guild Contributor)</h3>
+          <p class="org">ABN AMRO Bank</p>
+          <p data-i18n="exp.1.body">
+            Architecting and shipping secure Android features for a banking app serving millions of users.
+            Active contributor to the Security Guild - driving security-by-design practices, biometric
+            authentication, and compliance across Android teams.
+          </p>
+        </article>
+
+        <article class="timeline-item reveal">
+          <p class="time" data-i18n="exp.2.time">2016 - 2017 (Contract)</p>
+          <h3 data-i18n="exp.2.role">Android Lead / Payment Architect</h3>
+          <p class="org">ING Bank</p>
+          <p data-i18n="exp.2.body">
+            Led the implementation of fingerprint biometric authentication - one of the first in Dutch banking
+            - and architected secure payment request flows used by millions of customers.
+          </p>
+        </article>
+
+        <article class="timeline-item reveal">
+          <p class="time" data-i18n="exp.3.time">2014 - 2015 (Freelance)</p>
+          <h3 data-i18n="exp.3.role">Founding Android Engineer</h3>
+          <p class="org">WeTransfer</p>
+          <p data-i18n="exp.3.body">
+            Built WeTransfer's first native Android app from zero - custom animations, minimal UI, and robust
+            chunked uploads to AWS S3. Established the architecture that shipped v1 to market in a fast-paced
+            startup environment.
+          </p>
+        </article>
+
+        <article class="timeline-item reveal">
+          <p class="time" data-i18n="exp.4.time">2010 (Internship)</p>
+          <h3 data-i18n="exp.4.role">Android Developer</h3>
+          <p class="org">M2mobi (Heineken Campaign)</p>
+          <p data-i18n="exp.4.body">
+            First professional Android role: developed performance-optimized UI for early mobile devices,
+            including a complex slot-machine animation for a Heineken campaign. Deep focus on memory
+            optimization and rendering performance.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="impact" class="section">
+      <h2 class="section-title reveal" data-i18n="impact.title">Impact Projects: Engineering for the Community.</h2>
+      <p class="section-intro reveal" data-i18n="impact.intro">
+        Concrete outcomes from applying engineering skills to real-world problems - under pressure, at scale,
+        for people who need it.
+      </p>
+
+      <div class="impact-grid">
+        <article class="impact-card impact-orange reveal">
+          <h3 data-i18n="impact.1.title">Bahia Blanca Flood Crisis Map</h3>
+          <p class="meta" data-i18n="impact.1.meta">Cloudflare Pages/Workers, Maps API, KML | 2024</p>
+          <p data-i18n-html="impact.1.body">
+            <strong>40,000+ users in a single day.</strong> Designed and deployed an incident mapping tool in
+            under 24 hours during a major flood. Provided real-time data on services, power outages, and road
+            blocks. Integrated directly with Argentinian military mapping experts via KML exports for
+            coordinated response.
+          </p>
+        </article>
+
+        <article class="impact-card impact-yellow reveal">
+          <h3 data-i18n="impact.2.title">Santander Bus App</h3>
+          <p class="meta" data-i18n="impact.2.meta">Bootstrap, Python (Jinja2/App Engine) | 2012-2023</p>
+          <p data-i18n-html="impact.2.body">
+            <strong>800 daily users for 11 years.</strong> Built a full-stack real-time bus information app
+            that replaced the city's broken Flash-based site. Python/Jinja2 backend on Google App Engine,
+            launched with guerrilla marketing (QR codes on bus stops). Became the de facto local resource
+            until the city shipped its own solution.
+          </p>
+        </article>
+
+        <article class="impact-card impact-teal reveal">
+          <h3 data-i18n="impact.3.title">Spanish Consulate Appointment Scraper & Community Bridge</h3>
+          <p class="meta" data-i18n="impact.3.meta">Python, WhatsApp, Civic Advocacy | 2021-2023</p>
+          <p data-i18n-html="impact.3.body">
+            <strong>Policy change achieved.</strong> A Python scraper to monitor consulate appointments grew
+            organically into a large WhatsApp community. Led to direct collaboration with the Council of
+            Residents from Spain (CRE) and a formal consultation with the Spanish Consul in Amsterdam -
+            influencing real improvements in bureaucratic processes.
+          </p>
+        </article>
+
+        <article class="impact-card impact-purple reveal">
+          <h3 data-i18n="impact.4.title">COVID-19 Maker Response (PPE Production)</h3>
+          <p class="meta" data-i18n="impact.4.meta">3D Printing (Fusion 360), Community Collaboration | 2020</p>
+          <p data-i18n-html="impact.4.body">
+            <strong>Mass-produced PPE for healthcare workers.</strong> Joined the Santander maker community
+            during the pandemic to design and 3D-print ear protectors and face shields for medical staff.
+            Parametric modeling in Fusion 360, rapid iteration, and community coordination under urgency.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="maker" class="section">
+      <h2 class="section-title reveal" data-i18n="maker.title">The Maker Lab & Life Outside Work.</h2>
+      <p class="section-intro reveal" data-i18n="maker.intro">
+        Beyond product work, I build and experiment with technical hobbies that reinforce precision,
+        long-horizon thinking, and disciplined execution.
+      </p>
+
+      <div class="maker-grid">
+        <article class="maker-card reveal">
+          <h3 data-i18n="maker.1.title">3D Printing & Parametric Design</h3>
+          <p data-i18n="maker.1.body">
+            A passion for turning digital ideas into physical objects, mastering parametric modeling with
+            Fusion 360. From practical homelab solutions to contributing to community PPE efforts, I love the
+            tangible aspect of creation.
+          </p>
+        </article>
+
+        <article class="maker-card reveal">
+          <h3 data-i18n="maker.2.title">Linux, Cloud & Homelab Orchestration</h3>
+          <p data-i18n="maker.2.body">
+            A long-time Linux enthusiast, I enjoy building and maintaining my homelab, delving into
+            containers, cloud solutions, and orchestrating personal systems. It is my playground for
+            continuous learning and practical system architecture.
+          </p>
+        </article>
+
+        <article class="maker-card reveal">
+          <h3 data-i18n="maker.3.title">Telescope Building & Amateur Astronomy</h3>
+          <p data-i18n="maker.3.body">
+            In Argentina, I built a 115mm Newtonian Dobsonian reflector with a handmade wood tube and mount,
+            inspired by classic Stellafane designs. I use it from the southern hemisphere to observe Jupiter's
+            moons, Saturn's rings, lunar craters, and deep-sky clusters and nebulae.
+          </p>
+        </article>
+
+        <article class="maker-card reveal">
+          <h3 data-i18n="maker.4.title">Drone Piloting</h3>
+          <p data-i18n="maker.4.body">
+            I recently started flying drones as a way to explore spatial awareness, field planning, and
+            real-world system control. It is a practical hobby that pairs engineering curiosity with
+            disciplined operation.
+          </p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer reveal">
+    <p data-i18n="footer.line">Built with pure HTML, CSS and no unnecessary JavaScript.</p>
+    <p>&copy; <span id="year"></span> JuanMa Cuevas.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
-</html> 
+
+</html>
